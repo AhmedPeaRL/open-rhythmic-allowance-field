@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0e0e0e;
+  overflow: hidden;
+}
+
+#field {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.fragment {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  animation: fade 6s linear forwards;
+}
+
+@keyframes fade {
+  from { opacity: 0.3; }
+  to { opacity: 0; }
+}
